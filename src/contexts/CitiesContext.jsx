@@ -3,13 +3,13 @@ import { createContext, useState, useEffect, useContext } from "react";
 const URL = "http://localhost:8000";
 const CitiesContext = createContext();
 
-const initialState = {
-  cities: [],
-  isLoading: false,
-  currentCity: {},
-};
+// const initialState = {
+//   cities: [],
+//   isLoading: false,
+//   currentCity: {},
+// };
 
-function reducer(state, action) {}
+// function reducer(state, action) {}
 
 function CitiesProvider({ children }) {
   const [cities, setCities] = useState([]);
